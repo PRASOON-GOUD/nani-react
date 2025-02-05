@@ -1,0 +1,31 @@
+h1 {
+  background-color: #3498db; /* Blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Sidebar container to align Sidebar1 and Sidebar2 side by side */
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 80%;
+}
+
+/* Individual sidebars */
+.sidebar div {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+
+}
