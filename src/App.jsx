@@ -76,6 +76,7 @@ import './App.css';
 //     </div>
 // }
 // export default App;
+
 // import React from 'react'
 // import PropsChildrenEx from './propsexample/PropsChildrenEx'
 // import ChildProps from './propsexample/ChildProps';
@@ -91,17 +92,45 @@ import './App.css';
 //     )
 // }
 // export default App
+
+
+// import React from 'react'
+// import Child1 from './propsexample/Child1'
+
+// const App = () => {
+//   return (
+//     <div className='app'> App
+//     <hr/>
+//     <Child1 university="MRU"/>
+      
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import CBCStateEx from './stateexamples.jsx/CBCStateEx';
+// const App = () => {
+//   return (
+//     <div>
+//       <CBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import Child1 from './propsexample/Child1'
+import FBCStateEx from './stateexamples.jsx/FBCStateEx';
 
 const App = () => {
   return (
-    <div className='app'> App
-    <hr/>
-    <Child1 university="MRU"/>
-      
+    <div>
+      <FBCStateEx/>
     </div>
   )
 }
 
 export default App
+
+
